@@ -1,6 +1,6 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
-const HeroContainer = (props: any) => {
+const HeroContainer = (props: { image: StaticImageData }) => {
   return (
     <div className="relative">
       <div className="absolute top-3 left-5 md:top-20 md:left-24 lg:top-24 lg:left-28 xl:top-36 xl:left-40 2xl:top-48 2xl:left-52">
